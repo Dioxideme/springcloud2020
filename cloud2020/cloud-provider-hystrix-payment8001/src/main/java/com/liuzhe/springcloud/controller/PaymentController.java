@@ -1,4 +1,4 @@
-package com.liuzhe.springcloud.comtroller;
+package com.liuzhe.springcloud.controller;
 
 import com.liuzhe.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;

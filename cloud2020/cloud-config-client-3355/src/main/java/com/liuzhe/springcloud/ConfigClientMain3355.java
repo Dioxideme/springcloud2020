@@ -6,12 +6,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author : liuzhe
- * @date : 2020-09-22 14:43
+ * @date : 2020-09-23 19:15
  **/
 @SpringBootApplication
 @EnableEurekaClient
-public class GateWayMain9527 {
+public class ConfigClientMain3355 {
     public static void main(String[] args) {
-        SpringApplication.run(GateWayMain9527.class,args);
+        SpringApplication.run(ConfigClientMain3355.class,args);
     }
 }
