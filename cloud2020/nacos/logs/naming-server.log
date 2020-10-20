@@ -1,0 +1,342 @@
+2020-10-19 16:17:26,356 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-10-19 16:17:26,358 INFO listen for service meta change
+
+2020-10-19 16:22:06,847 INFO creating empty service public:DEFAULT_GROUP@@serverAddr
+
+2020-10-19 16:22:06,887 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@serverAddr","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603095726849,"checksum":"53c1a14f5677c5e6d36f775bdb2ebaf4","clusterMap":{},"empty":true}
+
+2020-10-19 16:22:06,894 WARN cluster: default not found, ip: {"instanceId":"192.168.64.1#8091#default#DEFAULT_GROUP@@serverAddr","ip":"192.168.64.1","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"DEFAULT_GROUP@@serverAddr","metadata":{},"lastBeat":1603095726834,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 16:22:06,906 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[{"instanceId":"192.168.64.1#8091#default#DEFAULT_GROUP@@serverAddr","ip":"192.168.64.1","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"DEFAULT_GROUP@@serverAddr","metadata":{},"lastBeat":1603095726834,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 17:17:11,575 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2001,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-order-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 17:17:11,578 INFO creating empty service public:DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 17:17:11,579 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@seata-order-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603099031578,"checksum":"5756b22ee6f53e9e79b2fdddcb19b39e","clusterMap":{},"empty":true}
+
+2020-10-19 17:17:11,580 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603099031578,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 17:17:11,582 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603099031579,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:15:24,074 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2002,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-storage-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-storage-service
+
+2020-10-19 20:15:24,074 INFO creating empty service public:DEFAULT_GROUP@@seata-storage-service
+
+2020-10-19 20:15:24,075 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@seata-storage-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603109724074,"checksum":"200579b04335fed5e72f65ecc52b4029","clusterMap":{},"empty":true}
+
+2020-10-19 20:15:24,076 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603109724074,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 20:15:24,077 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603109724075,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:40:02,887 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2003,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-account-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-account-service
+
+2020-10-19 20:40:02,887 INFO creating empty service public:DEFAULT_GROUP@@seata-account-service
+
+2020-10-19 20:40:02,887 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@seata-account-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603111202887,"checksum":"b96984c8472eeeb4288933e634fe0a3b","clusterMap":{},"empty":true}
+
+2020-10-19 20:40:02,887 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111202887,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 20:40:02,887 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111202887,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:40:02,888 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111202888,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:40:29,481 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[]}
+
+2020-10-19 20:40:43,129 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[{"instanceId":"192.168.64.1#8091#default#DEFAULT_GROUP@@serverAddr","ip":"192.168.64.1","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"DEFAULT_GROUP@@serverAddr","metadata":{},"lastBeat":1603111243129,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:41:03,619 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111263619,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:41:16,093 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-order-service, ip: {"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111243774,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:41:16,303 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[]}
+
+2020-10-19 20:41:21,613 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-storage-service, ip: {"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111247316,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:41:21,615 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[]}
+
+2020-10-19 20:41:42,175 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2001,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-order-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 20:41:42,175 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111302175,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:41:42,176 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111302176,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:41:45,036 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2002,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-storage-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-storage-service
+
+2020-10-19 20:41:45,038 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111305036,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:43:28,754 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111408754,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:43:36,847 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-storage-service, ip: {"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111385270,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:43:36,852 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[]}
+
+2020-10-19 20:43:43,238 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-account-service, ip: {"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111388904,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:43:43,240 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[]}
+
+2020-10-19 20:45:30,644 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[]}
+
+2020-10-19 20:45:36,745 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-order-service, ip: {"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111503995,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:45:36,750 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[]}
+
+2020-10-19 20:45:40,561 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[{"instanceId":"192.168.64.1#8091#default#DEFAULT_GROUP@@serverAddr","ip":"192.168.64.1","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"DEFAULT_GROUP@@serverAddr","metadata":{},"lastBeat":1603111540561,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:45:46,361 WARN namespace : public, [DEFAULT_GROUP@@seata-storage-service] services are automatically cleaned
+
+2020-10-19 20:45:46,365 WARN namespace : public, [DEFAULT_GROUP@@seata-account-service] services are automatically cleaned
+
+2020-10-19 20:45:46,372 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@seata-storage-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603111416852,"checksum":"917bc1b86cfdf113aa5c120092f7cf47","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@seata-storage-service","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-10-19 20:45:46,372 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@seata-account-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603111423240,"checksum":"14ac3a642f5c2a7a85f5cd7643373d3b","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@seata-account-service","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2020-10-19 20:46:37,974 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2001,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-order-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 20:46:37,975 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111597974,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:46:37,976 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111597975,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:51:52,938 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2002,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-storage-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-storage-service
+
+2020-10-19 20:51:52,938 INFO creating empty service public:DEFAULT_GROUP@@seata-storage-service
+
+2020-10-19 20:51:52,939 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@seata-storage-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603111912938,"checksum":"200579b04335fed5e72f65ecc52b4029","clusterMap":{},"empty":true}
+
+2020-10-19 20:51:52,939 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111912938,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 20:51:52,940 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111912938,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:51:52,941 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-storage-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2002#DEFAULT#DEFAULT_GROUP@@seata-storage-service","ip":"192.168.1.109","port":2002,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-storage-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111912939,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:52:24,147 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2003,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-account-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-account-service
+
+2020-10-19 20:52:24,148 INFO creating empty service public:DEFAULT_GROUP@@seata-account-service
+
+2020-10-19 20:52:24,148 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@seata-account-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1603111944148,"checksum":"b96984c8472eeeb4288933e634fe0a3b","clusterMap":{},"empty":true}
+
+2020-10-19 20:52:24,149 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111944148,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2020-10-19 20:52:24,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111944148,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:52:24,151 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603111944149,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:55:56,745 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112156744,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:59:13,036 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-order-service, ip: {"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112322085,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 20:59:13,041 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[]}
+
+2020-10-19 20:59:26,214 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2001,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-order-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 20:59:26,214 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112366214,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:59:26,215 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112366215,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 20:59:49,769 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112389769,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:02:49,153 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112569153,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:05:28,473 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603112728472,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:13:16,629 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113196629,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:15:12,635 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113312634,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:20:04,828 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113604828,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:24:50,348 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-order-service, ip: {"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113860328,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 21:24:50,352 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[]}
+
+2020-10-19 21:25:02,325 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-account-service, ip: {"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113868775,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}
+
+2020-10-19 21:25:02,327 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[]}
+
+2020-10-19 21:25:06,457 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2001,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-order-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-order-service
+
+2020-10-19 21:25:06,458 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113906458,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:25:06,459 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113906458,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:25:13,660 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":2003,"ip":"192.168.1.109","serviceName":"DEFAULT_GROUP@@seata-account-service","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-account-service
+
+2020-10-19 21:25:13,660 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113913660,"marked":false,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:25:13,661 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113913661,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:25:48,769 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-order-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2001#DEFAULT#DEFAULT_GROUP@@seata-order-service","ip":"192.168.1.109","port":2001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-order-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603113948769,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:27:04,886 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-account-service, value: {"instanceList":[{"instanceId":"192.168.1.109#2003#DEFAULT#DEFAULT_GROUP@@seata-account-service","ip":"192.168.1.109","port":2003,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-account-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1603114024886,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]}
+
+2020-10-19 21:27:52,322 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@serverAddr, value: {"instanceList":[]}
+
+2020-10-19 21:27:55,637 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:27:55,712 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:27:56,313 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:27:57,610 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:00,645 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:00,722 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:01,320 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:02,620 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:05,655 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:05,732 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:06,332 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+2020-10-19 21:28:07,623 WARN Exception while processing client beat time out.
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e4c8041 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1067)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1100)
+	at com.alibaba.nacos.core.utils.ApplicationUtils.getBean(ApplicationUtils.java:192)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.getDistroMapper(ClientBeatCheckTask.java:60)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:78)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)

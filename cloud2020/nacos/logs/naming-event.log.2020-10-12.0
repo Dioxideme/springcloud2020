@@ -1,0 +1,30 @@
+2020-10-12 20:31:27,838 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:31:27,846 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:31:27,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:32:25,725 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:32:25,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-10-12 20:57:50,376 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:57:50,376 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:57:50,377 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:57:50,377 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:57:50,377 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:57:50,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.1.101:9002_true,
+
+2020-10-12 20:58:25,702 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:58:25,702 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-10-12 20:58:25,703 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.101:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-12 20:58:25,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
